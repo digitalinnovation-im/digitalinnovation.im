@@ -1,0 +1,20 @@
+{
+  "name": "digitalinnovation.im",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.0",
+    "autoprefixer": "^10.2.4",
+    "postcss-cli": "^8.3.1",
+    "postcss-csso": "^5.0.0",
+    "tailwindcss": "^2.0.2"
+  }
+}
